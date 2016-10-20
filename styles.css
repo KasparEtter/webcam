@@ -1,0 +1,25 @@
+body {
+    padding: 40px;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    text-shadow: 0px 0px 20px white;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 4px 0px;
+}
+
+#webcam, #picture {
+    border: 0px;
+    margin: 15px 15px 0px 0px;
+}
+
+#caption {
+    text-align: center;
+    margin-top: 15px;
+}
