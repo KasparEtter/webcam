@@ -2,7 +2,10 @@ body {
     padding: 40px;
     font-size: 16px;
     font-family: "Arial", sans-serif;
-    text-shadow: 0px 0px 20px white;
+}
+
+a {
+    color: inherit;
 }
 
 h1 {
@@ -10,16 +13,27 @@ h1 {
     margin-bottom: 20px;
 }
 
-p {
-    margin: 4px 0px;
+p{
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 #webcam, #picture {
     border: 0px;
-    margin: 15px 15px 0px 0px;
+    margin: 20px 20px 0px 0px;
 }
 
 #caption {
     text-align: center;
-    margin-top: 15px;
+    margin: 20px;
+}
+
+#tags {
+    text-align: left;
+    margin: 0 auto;
+    display: none;
+}
+
+th, td {
+    padding: 2px 6px;
 }
